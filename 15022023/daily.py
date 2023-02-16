@@ -27,9 +27,17 @@ def originalSolution(num,k):
         num = map(int, str(carry)) + num
     return num
 
+# def originalSolution2(num,k):
+#     for i in range(len(num) - 1, -1, -1):
+#         k, num[i] = divmod(num[i] + k, 10)
+#     while k:
+#         k, a = divmod(k, 10)
+#         num = [a] + num
+#     return num
 
 if __name__ == '__main__':
     num = [1,2,0,0]
     k = 34
     print(mySolution(num, k))
     print(originalSolution(num, k))
+    # print(originalSolution2(num, k))
