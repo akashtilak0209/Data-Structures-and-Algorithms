@@ -11,12 +11,6 @@ Took maximum of return from left and right node and added 1 to it to get the dep
 Also learnt about initialising binary tree using constructor in an object in IDE.
 """
 
-# Class TreeNode for constructor of an object:
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 
 
 # My Solution:(Brute Force)
